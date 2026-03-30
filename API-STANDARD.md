@@ -13,6 +13,7 @@ This document specifies the format standards for adding custom APIs to this proj
 ### 1. 搜索接口 / Search Interface
 
 用于搜索视频内容。
+Used to search video content.
 
 **URL 格式 / URL Format:**
 ```
@@ -20,8 +21,8 @@ https://example.com/api.php/provide/vod/?ac=videolist&wd=关键词
 ```
 
 **参数说明 / Parameters:**
-- `ac=videolist` : 固定参数，表示获取视频列表
-- `wd=关键词` : 搜索关键词（URL编码）
+- `ac=videolist` : 固定参数，表示获取视频列表 / Fixed parameter, means get video list
+- `wd=关键词` : 搜索关键词（URL编码）/ Search keyword (URL encoded)
 
 **请求方法 / Request Method:** GET
 
@@ -37,6 +38,7 @@ https://example.com/api.php/provide/vod/?ac=videolist&wd=教父
 ### 2. 详情接口 / Detail Interface
 
 用于获取单个视频的详细信息。
+Used to retrieve detailed information about a single video.
 
 **URL 格式 / URL Format:**
 ```
@@ -44,8 +46,8 @@ https://example.com/api.php/provide/vod/?ac=detail&ids=视频ID
 ```
 
 **参数说明 / Parameters:**
-- `ac=detail` : 固定参数，表示获取详情
-- `ids=视频ID` : 视频ID（多个ID用逗号分隔）
+- `ac=detail` : 固定参数，表示获取详情 / Fixed parameter, means get detail
+- `ids=视频ID` : 视频ID（多个ID用逗号分隔）/ Video IDs (comma-separated for multiple)
 
 **请求方法 / Request Method:** GET
 
@@ -110,38 +112,38 @@ https://example.com/api.php/provide/vod/?ac=detail&ids=12345,12346,12347
 
 ## 🎯 常见参数 / Common Parameters
 
-| 参数名 | 说明 | 备注 |
+| 参数名 / Parameter | 说明 / Description | 备注 / Remarks |
 |--------|------|------|
-| `ac` | 行为参数 | videolist(列表) / detail(详情) |
-| `wd` | 搜索关键词 | 搜索接口必填 |
-| `ids` | 视频ID | 详情接口必填 |
-| `page` | 分页页码 | 默认为1 |
-| `limit` | 每页数量 | 默认10-20 |
-| `order` | 排序方式 | time(时间) / hits(热度) / score(评分) |
+| `ac` | 行为参数 / Action parameter | videolist(列表 / list) / detail(详情 / detail) |
+| `wd` | 搜索关键词 / Search keyword | 搜索接口必填 / Required for search |
+| `ids` | 视频ID / Video ID | 详情接口必填 / Required for detail |
+| `page` | 分页页码 / Page number | 默认为1 / Default: 1 |
+| `limit` | 每页数量 / Items per page | 默认10-20 / Default: 10-20 |
+| `order` | 排序方式 / Sort method | time(时间 / time) / hits(热度 / popularity) / score(评分 / rating) |
 
 ---
 
 ## ✅ 贡献指南 / Contribution Guidelines
 
-### 添加新API时请注意：
+### 添加新API时请注意 / When Adding New APIs, Please Note:
 
-1. **测试可用性** - 确保API端点能正常访问和返回数据
-2. **格式规范** - 遵循上述标准接口格式
-3. **文档完整** - 在JSON文件中填写准确的信息
-4. **错误处理** - 标注已知问题或限制
+1. **测试可用性** / Test availability - 确保API端点能正常访问和返回数据 / Ensure API endpoint works properly
+2. **格式规范** / Format compliance - 遵循上述标准接口格式 / Follow the standard format above
+3. **文档完整** / Complete documentation - 在JSON文件中填写准确的信息 / Fill in accurate information
+4. **错误处理** / Error handling - 标注已知问题或限制 / Mark known issues or limitations
 
 ### 提交步骤 / Submission Steps:
 
-1. Fork 本项目
-2. 修改 `sources/vod-sources.json` 添加新API
-3. 在提交信息中说明API来源和特点
-4. 提交 Pull Request
+1. Fork 本项目 / Fork this repository
+2. 修改 `sources/vod-sources.json` 添加新API / Modify to add new API
+3. 在提交信息中说明API来源和特点 / Explain source and features in commit message
+4. 提交 Pull Request / Submit a Pull Request
 
 ---
 
 ## 🔗 JSON 格式示例 / JSON Format Example
 
-在 `sources/vod-sources.json` 中添加新API：
+在 `sources/vod-sources.json` 中添加新API / Add new API in the file:
 
 ```json
 {
@@ -157,24 +159,24 @@ https://example.com/api.php/provide/vod/?ac=detail&ids=12345,12346,12347
 ```
 
 **字段说明 / Field Description:**
-- `name` : 源名称（中文）
-- `nameEn` : 源名称（英文，可选）
-- `category` : 分类，如"点播"
-- `url` : API根地址
-- `searchInterface` : 搜索接口模板
-- `detailInterface` : 详情接口模板
-- `status` : 状态，如"active"(有效) / "inactive"(失效)
-- `notes` : 备注或使用说明（可选）
+- `name` : 源名称（中文）/ Source name (Chinese)
+- `nameEn` : 源名称（英文，可选）/ Source name (English, Optional)
+- `category` : 分类，如"点播" / Category, e.g., "VOD"
+- `url` : API根地址 / Root API address
+- `searchInterface` : 搜索接口模板 / Search interface template
+- `detailInterface` : 详情接口模板 / Detail interface template
+- `status` : 状态，如"active"(有效) / "inactive"(失效) / Status: "active" or "inactive"
+- `notes` : 备注或使用说明（可选）/ Notes or instructions (Optional)
 
 ---
 
 ## ⚠️ 注意事项 / Important Notes
 
-1. **URL 编码** - 搜索关键词需要进行URL编码
-2. **响应码** - 通常 code=1 表示成功，code=0 表示失败
-3. **时间限制** - 某些API可能有请求频率限制
-4. **稳定性** - 某些API可能不稳定或间歇性宕机
-5. **法律合规** - 请确保API内容合法合规
+1. **URL 编码** / URL encoding - 搜索关键词需要进行URL编码 / Search keywords need URL encoding
+2. **响应码** / Response code - 通常 code=1 表示成功，code=0 表示失败 / Usually code=1 means success, code=0 means failure
+3. **时间限制** / Rate limiting - 某些API可能有请求频率限制 / Some APIs may have rate limits
+4. **稳定性** / Stability - 某些API可能不稳定或间歇性宕机 / Some APIs may be unstable or intermittently unavailable
+5. **法律合规** / Legal compliance - 请确保API内容合法合规 / Ensure API content is legal and compliant
 
 ## 📞 技术支持 / Technical Support
 

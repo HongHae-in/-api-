@@ -22,40 +22,42 @@ This project collects and organizes various video on-demand (VOD) sources and vi
 ## 📋 资源说明 / Resources
 
 ### 1. 点播视频源 (VOD Sources)
-文件: `sources/vod-sources.json`
+文件 / File: `sources/vod-sources.json`
 
-包含40+个视频点播源，每个源包含以下信息：
-- `name`: 源名称 (中文)
-- `nameEn`: 英文名称 (部分源)
-- `category`: 分类
-- `url`: API接口地址
+包含40+个视频点播源，每个源包含以下信息 / Contains 40+ VOD sources with the following information:
+- `name`: 源名称 (中文) / Source name (Chinese)
+- `nameEn`: 英文名称 (部分源) / English name (partial)
+- `category`: 分类 / Category
+- `url`: API接口地址 / API address
+- `status`: 源状态 / Source status
+- `notes`: 备注说明 / Notes (可选 / Optional)
 
 **API 使用格式 / API Usage Format:**
 
 每个视频源遵循以下标准接口格式：
 
-#### 搜索接口 (Search)
+#### 搜索接口 / Search Interface
 ```
 https://example.com/api.php/provide/vod/?ac=videolist&wd=关键词
 ```
-参数说明：
-- `ac=videolist` : 获取视频列表
-- `wd=关键词` : 搜索关键词（需URL编码）
+参数说明 / Parameters:
+- `ac=videolist` : 获取视频列表 / Get video list
+- `wd=关键词` : 搜索关键词（需URL编码）/ Search keyword (URL encoded)
 
-示例：
+示例 / Example:
 ```
 https://haiwaikan.com/api.php/provide/vod/?ac=videolist&wd=教父
 ```
 
-#### 详情接口 (Detail)
+#### 详情接口 / Detail Interface
 ```
 https://example.com/api.php/provide/vod/?ac=detail&ids=视频ID
 ```
-参数说明：
-- `ac=detail` : 获取视频详情
-- `ids=视频ID` : 视频ID（多个ID用逗号分隔）
+参数说明 / Parameters:
+- `ac=detail` : 获取视频详情 / Get video detail
+- `ids=视频ID` : 视频ID（多个ID用逗号分隔）/ Video IDs (comma-separated)
 
-示例：
+示例 / Example:
 ```
 https://haiwaikan.com/api.php/provide/vod/?ac=detail&ids=12345
 https://haiwaikan.com/api.php/provide/vod/?ac=detail&ids=12345,12346,12347
@@ -72,11 +74,11 @@ https://haiwaikan.com/api.php/provide/vod/?ac=detail&ids=12345,12346,12347
 ```
 
 ### 2. 视频解析器 (Video Parsers)
-文件: `sources/parsers.json`
+文件 / File: `sources/parsers.json`
 
-包含14+个视频解析器，用于解析各类视频链接。每个解析器包含：
-- `name`: 解析器名称
-- `url`: 解析器地址（参数：?url=VIDEO_URL）
+包含14+个视频解析器，用于解析各类视频链接。每个解析器包含 / Contains 14+ video parsers for parsing video links. Each parser contains:
+- `name`: 解析器名称 / Parser name
+- `url`: 解析器地址（参数：?url=VIDEO_URL）/ Parser URL (parameter: ?url=VIDEO_URL)
 
 **使用示例** / Usage Example:
 ```
@@ -85,20 +87,21 @@ https://jx.xmflv.com/?url=https://example.com/video.m3u8
 
 ## 🚀 快速开始 / Getting Started
 
-### 使用JSON文件
-直接导入 `vod-sources.json` 或 `parsers.json` 到你的应用中：
+### 使用JSON文件 / Using JSON Files
+直接导入 `vod-sources.json` 或 `parsers.json` 到你的应用中。
+Import `vod-sources.json` or `parsers.json` directly into your application:
 
 ```javascript
-// Node.js 示例
+// Node.js 示例 / Example
 const vodSources = require('./sources/vod-sources.json');
 const parsers = require('./sources/parsers.json');
 
-console.log(vodSources.sources[0]); // 第一个视频源
-console.log(parsers.parsers[0]);     // 第一个解析器
+console.log(vodSources.sources[0]); // 第一个视频源 / First video source
+console.log(parsers.parsers[0]);    // 第一个解析器 / First parser
 ```
 
 ```python
-# Python 示例
+# Python 示例 / Example
 import json
 
 with open('sources/vod-sources.json', 'r', encoding='utf-8') as f:
@@ -107,16 +110,19 @@ with open('sources/vod-sources.json', 'r', encoding='utf-8') as f:
 with open('sources/parsers.json', 'r', encoding='utf-8') as f:
     parsers = json.load(f)
 
-print(vod_sources['sources'][0])  # 第一个视频源
+print(vod_sources['sources'][0])  # 第一个视频源 / First video source
 ```
 
 ## ⚠️ 免责声明 / Disclaimer
 
 - 本项目仅供学习交流使用，不对任何源站的内容合法性负责
-- 使用这些资源时，请确保遵守当地法律法规
-- 作者不对因使用本项目资源造成的任何后果负责
+- This project is for educational purposes only and is not responsible for the legality of any content from third-party sources
 
-This project is for educational and learning purposes only. Users are responsible for their own compliance with local laws and regulations when using these resources.
+- 使用这些资源时，请确保遵守当地法律法规
+- When using these resources, please ensure compliance with local laws and regulations
+
+- 作者不对因使用本项目资源造成的任何后果负责
+- The author is not responsible for any consequences caused by using this project's resources
 
 ## 📝 许可证 / License
 
