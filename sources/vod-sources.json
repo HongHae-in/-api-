@@ -204,6 +204,538 @@
       "name": "快云",
       "category": "点播",
       "url": "https://www.kuaiyunzy.com/api.php/provide/vod/"
+    },
+    {
+      "name": "omofun111",
+      "category": "动漫",
+      "url": "https://enlienli.link/vod/search.html",
+      "searchUrl": "https://enlienli.link/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "风铃动漫",
+      "category": "动漫",
+      "url": "https://www.aafun.cc/feng-s.html",
+      "searchUrl": "https://www.aafun.cc/feng-s.html?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "叽哔动漫",
+      "category": "动漫",
+      "url": "https://www.jibi.cc/index.php/vod/search.html",
+      "searchUrl": "https://www.jibi.cc/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "E-ACG",
+      "category": "动漫",
+      "url": "https://eacg.net/vodsearch/-------------.html",
+      "searchUrl": "https://eacg.net/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "稀饭动漫",
+      "category": "动漫",
+      "url": "https://dm1.xfdm.pro/search.html",
+      "searchUrl": "https://dm1.xfdm.pro/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "森之屋动漫",
+      "category": "动漫",
+      "url": "https://senfun.in/search.html",
+      "searchUrl": "https://senfun.in/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "风车影视",
+      "category": "动漫",
+      "url": "https://www.dongmandaquan.vip/vodsearch/-------------.html",
+      "searchUrl": "https://www.dongmandaquan.vip/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "去看吧",
+      "category": "动漫",
+      "url": "https://11kt.net/index.php/vod/search.html",
+      "searchUrl": "https://11kt.net/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "海星动漫",
+      "category": "动漫",
+      "url": "https://www.haixingdmx.com/s_all",
+      "searchUrl": "https://www.haixingdmx.com/s_all?ex=1&kw={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "酱紫社",
+      "category": "动漫",
+      "url": "http://www.jzsdm1.com/index.php/vod/search.html",
+      "searchUrl": "http://www.jzsdm1.com/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "樱花动漫",
+      "category": "动漫",
+      "url": "https://yhdm6go.top/vsh/-------------/",
+      "searchUrl": "https://yhdm6go.top/vsh/-------------/?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "第一动漫",
+      "category": "动漫",
+      "url": "https://1anime2025.me/vodsearch/-------------.html",
+      "searchUrl": "https://1anime2025.me/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "次元方舟",
+      "category": "动漫",
+      "url": "http://www.cyfz.vip/search.html",
+      "searchUrl": "http://www.cyfz.vip/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "米粒动漫",
+      "category": "动漫",
+      "url": "https://milimili.nl/search",
+      "searchUrl": "https://milimili.nl/search?q={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "萌道动漫",
+      "category": "动漫",
+      "url": "https://www.gpjda.com/search.php",
+      "searchUrl": "https://www.gpjda.com/search.php?searchword={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "UZVOD",
+      "category": "动漫",
+      "url": "https://uzvod.com/vodsearch/-------------.html",
+      "searchUrl": "https://uzvod.com/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "嘀哩嘀哩",
+      "category": "动漫",
+      "url": "https://dilidili.io/search",
+      "searchUrl": "https://dilidili.io/search?q={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "2k动漫",
+      "category": "动漫",
+      "url": "https://www.2kdm.org/search.php",
+      "searchUrl": "https://www.2kdm.org/search.php?searchword={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "新优酷",
+      "category": "动漫",
+      "url": "https://www.youknow.tv/search/-------------/",
+      "searchUrl": "https://www.youknow.tv/search/-------------/?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "hanime1[1080p]",
+      "category": "动漫",
+      "url": "https://hanime1.me/search",
+      "searchUrl": "https://hanime1.me/search?query={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "hanime1[720p]",
+      "category": "动漫",
+      "url": "https://hanime1.me/search",
+      "searchUrl": "https://hanime1.me/search?query={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "girigiri愛動漫",
+      "category": "动漫",
+      "url": "https://anime.girigirilove.icu/search/-------------/",
+      "searchUrl": "https://anime.girigirilove.icu/search/-------------/?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "风车动漫",
+      "category": "动漫",
+      "url": "https://vdm10.com/search/-------------.html",
+      "searchUrl": "https://vdm10.com/search/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "趣动漫",
+      "category": "动漫",
+      "url": "https://www.qdm8.com/search/-------------.html",
+      "searchUrl": "https://www.qdm8.com/search/-------------.html?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "稀饭动漫",
+      "category": "动漫",
+      "url": "https://dm1.xfdm.pro/search.html",
+      "searchUrl": "https://dm1.xfdm.pro/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "咕咕番",
+      "category": "动漫",
+      "url": "https://www.gugu3.com/index.php/vod/search.html",
+      "searchUrl": "https://www.gugu3.com/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "喵物次元",
+      "category": "动漫",
+      "url": "https://www.mwcy.net/search.html",
+      "searchUrl": "https://www.mwcy.net/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "虾皮动漫",
+      "category": "动漫",
+      "url": "https://xiapidm.com/xvseabcdefghigklm.html",
+      "searchUrl": "https://xiapidm.com/xvseabcdefghigklm.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "漫次元",
+      "category": "动漫",
+      "url": "https://www.mcydh.com/vodsearch/-------------.html",
+      "searchUrl": "https://www.mcydh.com/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "蜜桃动漫",
+      "category": "动漫",
+      "url": "https://www.mitaodm.com/vodsearch.html",
+      "searchUrl": "https://www.mitaodm.com/vodsearch.html?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "次元城动画",
+      "category": "动漫",
+      "url": "https://www.cyc-anime.net/search.html",
+      "searchUrl": "https://www.cyc-anime.net/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "虾皮动漫",
+      "category": "动漫",
+      "url": "https://xiapidm.com/xvseabcdefghigklm.html",
+      "searchUrl": "https://xiapidm.com/xvseabcdefghigklm.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "漫次元",
+      "category": "动漫",
+      "url": "https://www.mcydh.com/vodsearch/-------------.html",
+      "searchUrl": "https://www.mcydh.com/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "蜜桃动漫",
+      "category": "动漫",
+      "url": "https://www.mitaodm.com/vodsearch.html",
+      "searchUrl": "https://www.mitaodm.com/vodsearch.html?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "MX动漫",
+      "category": "动漫",
+      "url": "https://www.mxdm.xyz/search/-------------.html",
+      "searchUrl": "https://www.mxdm.xyz/search/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "动漫蛋",
+      "category": "动漫",
+      "url": "https://www.dmdan8.com/search/-------------.html",
+      "searchUrl": "https://www.dmdan8.com/search/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "饭团动漫",
+      "category": "动漫",
+      "url": "https://acgfta.com/search.html",
+      "searchUrl": "https://acgfta.com/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "番茄动漫",
+      "category": "动漫",
+      "url": "https://www.fqdm.cc/index.php/vod/search.html",
+      "searchUrl": "https://www.fqdm.cc/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "omofun111",
+      "category": "动漫",
+      "url": "https://enlienli.link/vod/search.html",
+      "searchUrl": "https://enlienli.link/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "风铃动漫",
+      "category": "动漫",
+      "url": "https://www.aafun.cc/feng-s.html",
+      "searchUrl": "https://www.aafun.cc/feng-s.html?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "叽哔动漫",
+      "category": "动漫",
+      "url": "https://www.jibi.cc/index.php/vod/search.html",
+      "searchUrl": "https://www.jibi.cc/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "E-ACG",
+      "category": "动漫",
+      "url": "https://eacg.net/vodsearch/-------------.html",
+      "searchUrl": "https://eacg.net/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "稀饭动漫",
+      "category": "动漫",
+      "url": "https://dm1.xfdm.pro/search.html",
+      "searchUrl": "https://dm1.xfdm.pro/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "森之屋动漫",
+      "category": "动漫",
+      "url": "https://senfun.in/search.html",
+      "searchUrl": "https://senfun.in/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "风车影视",
+      "category": "动漫",
+      "url": "https://www.dongmandaquan.vip/vodsearch/-------------.html",
+      "searchUrl": "https://www.dongmandaquan.vip/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "去看吧",
+      "category": "动漫",
+      "url": "https://11kt.net/index.php/vod/search.html",
+      "searchUrl": "https://11kt.net/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "海星动漫",
+      "category": "动漫",
+      "url": "https://www.haixingdmx.com/s_all",
+      "searchUrl": "https://www.haixingdmx.com/s_all?ex=1&kw={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "酱紫社",
+      "category": "动漫",
+      "url": "http://www.jzsdm1.com/index.php/vod/search.html",
+      "searchUrl": "http://www.jzsdm1.com/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "樱花动漫",
+      "category": "动漫",
+      "url": "https://yhdm6go.top/vsh/-------------/",
+      "searchUrl": "https://yhdm6go.top/vsh/-------------/?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "第一动漫",
+      "category": "动漫",
+      "url": "https://1anime2025.me/vodsearch/-------------.html",
+      "searchUrl": "https://1anime2025.me/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "次元方舟",
+      "category": "动漫",
+      "url": "http://www.cyfz.vip/search.html",
+      "searchUrl": "http://www.cyfz.vip/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "米粒动漫",
+      "category": "动漫",
+      "url": "https://milimili.nl/search",
+      "searchUrl": "https://milimili.nl/search?q={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "萌道动漫",
+      "category": "动漫",
+      "url": "https://www.gpjda.com/search.php",
+      "searchUrl": "https://www.gpjda.com/search.php?searchword={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "UZVOD",
+      "category": "动漫",
+      "url": "https://uzvod.com/vodsearch/-------------.html",
+      "searchUrl": "https://uzvod.com/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "嘀哩嘀哩",
+      "category": "动漫",
+      "url": "https://dilidili.io/search",
+      "searchUrl": "https://dilidili.io/search?q={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "2k动漫",
+      "category": "动漫",
+      "url": "https://www.2kdm.org/search.php",
+      "searchUrl": "https://www.2kdm.org/search.php?searchword={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "新优酷",
+      "category": "动漫",
+      "url": "https://www.youknow.tv/search/-------------/",
+      "searchUrl": "https://www.youknow.tv/search/-------------/?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "hanime1[1080p]",
+      "category": "动漫",
+      "url": "https://hanime1.me/search",
+      "searchUrl": "https://hanime1.me/search?query={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "hanime1[720p]",
+      "category": "动漫",
+      "url": "https://hanime1.me/search",
+      "searchUrl": "https://hanime1.me/search?query={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "girigiri愛動漫",
+      "category": "动漫",
+      "url": "https://anime.girigirilove.icu/search/-------------/",
+      "searchUrl": "https://anime.girigirilove.icu/search/-------------/?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "风车动漫",
+      "category": "动漫",
+      "url": "https://vdm10.com/search/-------------.html",
+      "searchUrl": "https://vdm10.com/search/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "趣动漫",
+      "category": "动漫",
+      "url": "https://www.qdm8.com/search/-------------.html",
+      "searchUrl": "https://www.qdm8.com/search/-------------.html?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "稀饭动漫",
+      "category": "动漫",
+      "url": "https://dm1.xfdm.pro/search.html",
+      "searchUrl": "https://dm1.xfdm.pro/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "咕咕番",
+      "category": "动漫",
+      "url": "https://www.gugu3.com/index.php/vod/search.html",
+      "searchUrl": "https://www.gugu3.com/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "喵物次元",
+      "category": "动漫",
+      "url": "https://www.mwcy.net/search.html",
+      "searchUrl": "https://www.mwcy.net/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "虾皮动漫",
+      "category": "动漫",
+      "url": "https://xiapidm.com/xvseabcdefghigklm.html",
+      "searchUrl": "https://xiapidm.com/xvseabcdefghigklm.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "漫次元",
+      "category": "动漫",
+      "url": "https://www.mcydh.com/vodsearch/-------------.html",
+      "searchUrl": "https://www.mcydh.com/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "蜜桃动漫",
+      "category": "动漫",
+      "url": "https://www.mitaodm.com/vodsearch.html",
+      "searchUrl": "https://www.mitaodm.com/vodsearch.html?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "次元城动画",
+      "category": "动漫",
+      "url": "https://www.cyc-anime.net/search.html",
+      "searchUrl": "https://www.cyc-anime.net/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "虾皮动漫",
+      "category": "动漫",
+      "url": "https://xiapidm.com/xvseabcdefghigklm.html",
+      "searchUrl": "https://xiapidm.com/xvseabcdefghigklm.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "漫次元",
+      "category": "动漫",
+      "url": "https://www.mcydh.com/vodsearch/-------------.html",
+      "searchUrl": "https://www.mcydh.com/vodsearch/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "蜜桃动漫",
+      "category": "动漫",
+      "url": "https://www.mitaodm.com/vodsearch.html",
+      "searchUrl": "https://www.mitaodm.com/vodsearch.html?wd={keyword}&submit=",
+      "status": "active"
+    },
+    {
+      "name": "MX动漫",
+      "category": "动漫",
+      "url": "https://www.mxdm.xyz/search/-------------.html",
+      "searchUrl": "https://www.mxdm.xyz/search/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "动漫蛋",
+      "category": "动漫",
+      "url": "https://www.dmdan8.com/search/-------------.html",
+      "searchUrl": "https://www.dmdan8.com/search/-------------.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "饭团动漫",
+      "category": "动漫",
+      "url": "https://acgfta.com/search.html",
+      "searchUrl": "https://acgfta.com/search.html?wd={keyword}",
+      "status": "active"
+    },
+    {
+      "name": "番茄动漫",
+      "category": "动漫",
+      "url": "https://www.fqdm.cc/index.php/vod/search.html",
+      "searchUrl": "https://www.fqdm.cc/index.php/vod/search.html?wd={keyword}",
+      "status": "active"
     }
   ]
 }
