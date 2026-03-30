@@ -30,11 +30,44 @@ This project collects and organizes various video on-demand (VOD) sources and vi
 - `category`: 分类
 - `url`: API接口地址
 
+**API 使用格式 / API Usage Format:**
+
+每个视频源遵循以下标准接口格式：
+
+#### 搜索接口 (Search)
+```
+https://example.com/api.php/provide/vod/?ac=videolist&wd=关键词
+```
+参数说明：
+- `ac=videolist` : 获取视频列表
+- `wd=关键词` : 搜索关键词（需URL编码）
+
+示例：
+```
+https://haiwaikan.com/api.php/provide/vod/?ac=videolist&wd=教父
+```
+
+#### 详情接口 (Detail)
+```
+https://example.com/api.php/provide/vod/?ac=detail&ids=视频ID
+```
+参数说明：
+- `ac=detail` : 获取视频详情
+- `ids=视频ID` : 视频ID（多个ID用逗号分隔）
+
+示例：
+```
+https://haiwaikan.com/api.php/provide/vod/?ac=detail&ids=12345
+https://haiwaikan.com/api.php/provide/vod/?ac=detail&ids=12345,12346,12347
+```
+
 **使用示例** / Usage Example:
 ```json
 {
   "name": "海外看",
-  "url": "https://haiwaikan.com/api.php/provide/vod/"
+  "url": "https://haiwaikan.com/api.php/provide/vod/",
+  "searchInterface": "https://haiwaikan.com/api.php/provide/vod/?ac=videolist&wd=",
+  "detailInterface": "https://haiwaikan.com/api.php/provide/vod/?ac=detail&ids="
 }
 ```
 
