@@ -126,4 +126,8 @@ This project is for educational and learning purposes only. Users are responsibl
 
 欢迎提交 Issue 和 Pull Request 来改进本项目！
 
+详见 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何贡献新的视频源或解析器。
+
 Feel free to submit issues and pull requests to improve this project!
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute new video sources or parsers.
