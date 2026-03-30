@@ -120,7 +120,7 @@ This project is for educational and learning purposes only. Users are responsibl
 
 ## 📝 许可证 / License
 
-本项目采用 GPLv3 许可证 / Licensed under GPLv3
+本项目采用 MIT 许可证 / Licensed under MIT License
 
 ## 🤝 贡献 / Contributing
 

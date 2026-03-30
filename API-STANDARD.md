@@ -176,10 +176,14 @@ https://example.com/api.php/provide/vod/?ac=detail&ids=12345,12346,12347
 4. **稳定性** - 某些API可能不稳定或间歇性宕机
 5. **法律合规** - 请确保API内容合法合规
 
----
-
 ## 📞 技术支持 / Technical Support
 
 如有问题或建议，请提交 Issue 或 Pull Request。
 
 For technical issues or suggestions, please submit an Issue or Pull Request.
+
+---
+
+## 📝 许可证 / License
+
+本项目采用 MIT 许可证 / Licensed under MIT License
