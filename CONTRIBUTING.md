@@ -51,23 +51,8 @@ Add a new video source object to the `sources` array:
 - `nameEn` - 英文名称 / English name (可选 / Optional)
 - `searchInterface` - 搜索接口地址 / Search interface (可选 / Optional)
 - `detailInterface` - 详情接口地址 / Detail interface (可选 / Optional)
-- `status` - 状态 / Status ("active" 或/or "inactive")
+- `status` - 源状态 / Source status ("active" 或/or "inactive")
 - `notes` - 使用说明或备注 / Notes (可选 / Optional)
-
-#### 4.2 编辑 `sources/vod-sources.txt` / Edit `sources/vod-sources.txt`
-
-按照以下格式添加纯文本版本。
-Add a plain text version in the following format:
-
-```
-源的名称|点播
-https://example.com/api.php/provide/vod/
-```
-
-#### 4.3 编辑 `sources/vod-sources-v2.json`（可选）/ Edit `sources/vod-sources-v2.json` (Optional)
-
-优化版本也需要更新。
-The optimized version also needs to be updated.
 
 ---
 
@@ -115,12 +100,9 @@ https://example.com/api.php/provide/vod/?ac=detail&ids=视频ID
 }
 ```
 
-### 编辑 `sources/parsers.txt` / Edit `sources/parsers.txt`
-
-```
-解析器名称
-https://example.com/player/?url=
-```
+**字段说明 / Field Description:**
+- `name` - 解析器名称 / Parser name
+- `url` - 解析器地址（参数：?url=VIDEO_URL）/ Parser URL (parameter: ?url=VIDEO_URL)
 
 ---
 

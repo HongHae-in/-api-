@@ -12,11 +12,13 @@ This project collects and organizes various video on-demand (VOD) sources and vi
 
 ```
 -api-/
-├── README.md                 # 项目说明文档
-├── sources/                  # 资源目录
-│   ├── vod-sources.json      # 点播视频源集合 (VOD sources)
-│   └── parsers.json          # 视频解析器集合 (Video parsers)
-└── LICENSE                   # GPLv3 许可证
+├── README.md                 # 项目说明文档 / Documentation
+├── CONTRIBUTING.md           # 贡献指南 / Contributing guide
+├── API-STANDARD.md           # API规范标准 / API standards
+├── sources/                  # 资源目录 / Resources
+│   ├── vod-sources.json      # 点播视频源集合 / VOD sources
+│   └── parsers.json          # 视频解析器集合 / Video parsers
+└── LICENSE                   # MIT 许可证 / License
 ```
 
 ## 📋 资源说明 / Resources
