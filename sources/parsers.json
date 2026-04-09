@@ -15,32 +15,12 @@
       "url": "http://82.156.40.118:1234/jx/?url="
     },
     {
-      "name": "jx.oftens.top",
-      "url": "https://jx.oftens.top/player/?url="
-    },
-    {
       "name": "jx.xmflv",
       "url": "https://jx.xmflv.com/?url="
     },
     {
-      "name": "jx.yangtu.top",
-      "url": "https://jx.yangtu.top/?url="
-    },
-    {
-      "name": "dmjx.m3u8.tv",
-      "url": "https://dmjx.m3u8.tv/?url="
-    },
-    {
-      "name": "jx.jsonplayer.com",
-      "url": "https://jx.jsonplayer.com/player/?url="
-    },
-    {
       "name": "ckplayer.vip",
       "url": "https://www.ckplayer.vip/jiexi/?url="
-    },
-    {
-      "name": "jx.haokantv.cyou",
-      "url": "https://jx.haokantv.cyou/player/?url="
     },
     {
       "name": "jx.playerjy.com",
@@ -49,14 +29,6 @@
     {
       "name": "pangujiexi",
       "url": "https://www.pangujiexi.com/jiexi/?url="
-    },
-    {
-      "name": "8090.la",
-      "url": "https://www.8090.la/8090/?url="
-    },
-    {
-      "name": "43.240.74.102",
-      "url": "https://43.240.74.102:4433/?url="
     }
   ]
 }

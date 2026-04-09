@@ -26,13 +26,17 @@ This project collects and organizes various video on-demand (VOD) sources and vi
 ### 1. 点播视频源 (VOD Sources)
 文件 / File: `sources/vod-sources.json`
 
-包含40+个视频点播源，每个源包含以下信息 / Contains 40+ VOD sources with the following information:
-- `name`: 源名称 (中文) / Source name (Chinese)
-- `nameEn`: 英文名称 (部分源) / English name (partial)
-- `category`: 分类 / Category
+包含39个精选视频点播源，分为以下两类 / Contains 39 curated VOD sources in two categories:
+
+**资源源 (Resource Sources - 13个)**
+- 紅牛資源、量子資源、卧龙资源、森林资源、閃電資源、金鹰资源、光速资源、奥斯卡资源网、U酷资源、樱花资源网、闪电资源、百度资源、艾旦影视
+
+**点播源 (VOD Sources - 26个)**
+- 360|点播、牛牛|点播、丫丫|点播、U酷|点播、豪华|点播、极速|点播、索尼|点播、ikun|点播、非凡|点播、量子|点播、暴风|点播、红牛|点播、闪电|点播、樱花|点播、卧龙|点播、虎牙|点播、百度|点播、飘零|点播、无尽|点播、速博|点播、魔都|点播、最大|点播、火狐|点播、新浪|点播
+
+每个源包含以下信息 / Each source contains:
+- `name`: 源名称 / Source name
 - `url`: API接口地址 / API address
-- `status`: 源状态 / Source status
-- `notes`: 备注说明 / Notes (可选 / Optional)
 
 **API 使用格式 / API Usage Format:**
 
@@ -48,7 +52,7 @@ https://example.com/api.php/provide/vod/?ac=videolist&wd=关键词
 
 示例 / Example:
 ```
-https://haiwaikan.com/api.php/provide/vod/?ac=videolist&wd=教父
+https://360zy.com/api.php/provide/vod/?ac=videolist&wd=教父
 ```
 
 #### 详情接口 / Detail Interface
@@ -61,30 +65,30 @@ https://example.com/api.php/provide/vod/?ac=detail&ids=视频ID
 
 示例 / Example:
 ```
-https://haiwaikan.com/api.php/provide/vod/?ac=detail&ids=12345
-https://haiwaikan.com/api.php/provide/vod/?ac=detail&ids=12345,12346,12347
+https://360zy.com/api.php/provide/vod/?ac=detail&ids=12345
+https://360zy.com/api.php/provide/vod/?ac=detail&ids=12345,12346,12347
 ```
 
 **使用示例** / Usage Example:
 ```json
 {
-  "name": "海外看",
-  "url": "https://haiwaikan.com/api.php/provide/vod/",
-  "searchInterface": "https://haiwaikan.com/api.php/provide/vod/?ac=videolist&wd=",
-  "detailInterface": "https://haiwaikan.com/api.php/provide/vod/?ac=detail&ids="
+  "name": "360|点播",
+  "url": "https://360zy.com/api.php/provide/vod/",
+  "searchInterface": "https://360zy.com/api.php/provide/vod/?ac=videolist&wd=",
+  "detailInterface": "https://360zy.com/api.php/provide/vod/?ac=detail&ids="
 }
 ```
 
 ### 2. 视频解析器 (Video Parsers)
 文件 / File: `sources/parsers.json`
 
-包含14+个视频解析器，用于解析各类视频链接。每个解析器包含 / Contains 14+ video parsers for parsing video links. Each parser contains:
+包含精选的视频解析器，用于解析各类视频链接。每个解析器包含 / Contains curated video parsers for parsing video links. Each parser contains:
 - `name`: 解析器名称 / Parser name
 - `url`: 解析器地址（参数：?url=VIDEO_URL）/ Parser URL (parameter: ?url=VIDEO_URL)
 
 **使用示例** / Usage Example:
 ```
-https://jx.xmflv.com/?url=https://example.com/video.m3u8
+https://yparse.ik9.cc/index.php?url=https://example.com/video.m3u8
 ```
 
 ## 🚀 快速开始 / Getting Started
